@@ -78,4 +78,4 @@ if __name__ == '__main__':
 	except Exception as err:
 		print('An exception happened: ' + str(err))
 	
-	print('Done! Cost Time: %0.2f second' % (time.clock() - startTime))
+	print('Done!\nCost Time: %0.2f second' % (time.clock() - startTime))
